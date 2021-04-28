@@ -1,0 +1,35 @@
+/* transform file for html linked  */
+
+body{
+    background-color:lightslategray;
+}
+
+div{
+    width: 500px;
+    height: 50px;
+    background-color:rgb(14, 12, 14);
+    border: 5px solid red;
+    margin: 200px;
+}
+
+section :nth-of-type(1){
+    transform:rotate(120deg)
+    translate(100px)
+    skew(45deg)
+    
+    
+}
+section :nth-of-type(2){
+    transform:rotate(90deg)
+}
+section :nth-of-type(3){
+    transform:rotate(180deg)
+    translate-left(200px, 50%)
+    scale(20px,3,5)
+}
+section :nth-of-type(4){
+    transform:rotate(145deg)
+}
+section :nth-of-type(5){
+    transform:rotate(50deg)
+}
